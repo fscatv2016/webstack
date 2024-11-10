@@ -5,7 +5,7 @@
     padding: 0px 30px 0px 30px;
     background-color: #fff;
     border-radius: 4px;
-    border: 1px solid #e4ecf3;
+    border: 1px solid rgba(0,0,0,0.1);
     margin: 20px 0 0 0;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
