@@ -139,13 +139,13 @@ const navData = {
                 },
                 {
                     name: 'Xshell',
-                    icon: 'xshell.png',
+                    icon: 'Xshell.png',
                     url: "https://www.netsarang.com/zh/xshell/",
                     description: "一款强大的SSH客户端"
                 },
                 {
                     name: 'WPS',
-                    icon: 'wps.png',
+                    icon: 'WPS.png',
                     url: "https://www.wps.cn/",
                     description: "一款办公软件套装"
                 }
@@ -356,7 +356,7 @@ const navData = {
                         },
                         {
                             name: 'Xshell',
-                            icon: 'xshell.png',
+                            icon: 'Xshell.png',
                             url: 'https://www.netsarang.com/zh/xshell/',
                             description: '一款强大的SSH客户端'
                         },
@@ -464,7 +464,7 @@ const navData = {
                     items: [
                         {
                             name: 'WPS Office',
-                            icon: 'wps.png',
+                            icon: 'WPS.png',
                             url: "https://www.wps.cn/",
                             description: "一款办公软件套装"
                         },
