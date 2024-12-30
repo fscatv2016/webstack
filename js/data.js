@@ -212,7 +212,7 @@ const navData = {
                 },
                 {
                     name: 'Midjourney',
-                    icon: 'midjourney.png',
+                    icon: 'Midjourney.png',
                     url: 'https://www.midjourney.com/',
                     description: '一款强大的AI绘画工具'
                 },
@@ -271,7 +271,7 @@ const navData = {
                         },
                         {
                             name: 'qBittorrent',
-                            icon: 'qBittorrent.png',
+                            icon: 'qbittorrent.png',
                             url: 'https://www.qbittorrent.org/',
                             description: '支持添加tracker、制作种子、搜索种子的种子和磁力链接下载工具'
                         },
