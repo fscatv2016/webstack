@@ -12,7 +12,7 @@ const navData = {
                     description: "探索未至之境"
                 },
                 {
-                    name: "Cursor',",
+                    name: "Cursor",
                     icon: "cursor.png",
                     url: "https://www.cursor.com/",
                     description: "AI 代码编辑器"
