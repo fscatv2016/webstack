@@ -6,6 +6,18 @@ const navData = {
             icon: "icon-star",
             items: [
                 {
+                    name: "Deepseek",
+                    icon: "deepseek.png",
+                    url: "https://www.deepseek.com/",
+                    description: "探索未至之境"
+                },
+                {
+                    name: "Cursor',",
+                    icon: "cursor.png",
+                    url: "https://www.cursor.com/",
+                    description: "AI 代码编辑器"
+                },
+                {
                     name: "Kimi",
                     icon: "kimi.png",
                     url: "https://kimi.moonshot.cn/",
@@ -241,6 +253,48 @@ const navData = {
             name: "工具",
             icon: "icon-Toolbox",
             children: [
+                {
+                    id: "onlinetools",
+                    name: "在线工具",
+                    items: [
+                        {
+                            name: "Photopea",
+                            icon: "photopea.png",
+                            url: "https://www.photopea.com/",
+                            description: "在线版Photoshop"
+                        }
+                    ]
+                },
+                {
+                    id: "plusing",
+                    name: "浏览器插件",
+                    items: [
+                        {
+                            name: "Tampermonkey",
+                            icon: "tampermonkey.png",
+                            url: "https://www.tampermonkey.net/",
+                            description: "一款强大的浏览器脚本管理器"
+                        },
+                        {
+                            name: "沉浸式翻译",
+                            icon: "immersivetranslate.png",
+                            url: "https://chromewebstore.google.com/detail/%E6%B2%89%E6%B5%B8%E5%BC%8F%E7%BF%BB%E8%AF%91-%E7%BD%91%E9%A1%B5%E7%BF%BB%E8%AF%91%E6%8F%92%E4%BB%B6-pdf%E7%BF%BB%E8%AF%91-%E5%85%8D%E8%B4%B9/bpoadfkcbjbfhfodiogcnhhhpibjhbnh",
+                            description: "网页翻译插件 | PDF翻译 | 免费"
+                        },
+                        {
+                            name: "AHA Music - 浏览器中的音乐雷达",
+                            icon: "aha-music.png",
+                            url: "https://chromewebstore.google.com/search/AHA%20Music?hl=zh-CN&utm_source=ext_sidebar",
+                            description: "识别浏览器中所播放的歌曲"
+                        },
+                        {
+                            name: "Shazam：在浏览器中直接识别歌曲",
+                            icon: "shazam.jpg",
+                            url: "https://chromewebstore.google.com/detail/shazam%EF%BC%9A%E5%9C%A8%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%AD%E7%9B%B4%E6%8E%A5%E8%AF%86%E5%88%AB%E6%AD%8C%E6%9B%B2/mmioliijnhnoblpgimnlajmefafdfilb?hl=zh-CN&utm_source=ext_sidebar",
+                            description: "识别音乐、搜索歌词与更多内容"
+                        }
+                    ]
+                },
                 {
                     id: "downdload",
                     name: "下载工具",
@@ -491,302 +545,314 @@ const navData = {
             ]
         },
         {
-          id: "github",
-          name: "GitHub",
-          icon: "icon-github",
-          items: [
-              {
-                  name: "Figma",
-                  icon: "figma.png",
-                  url: "https://www.figma.com",
-                  description: "在线设计工具"
-              }
-          ]
+            id: "github",
+            name: "GitHub",
+            icon: "icon-github",
+            items: [
+                {
+                    name: "科技爱好者周刊",
+                    icon: "ruanyf.png",
+                    url: "https://github.com/ruanyf/weekly",
+                    description: "科技爱好者周刊"
+                },
+                {
+                    name: "F5-TTS",
+                    icon: "github.png",
+                    url: "https://github.com/SWivid/F5-TTS",
+                    description: "零样本语音克隆，2秒复刻你的声音!"
+                },
+                {
+                    name: "Telegram Files",
+                    icon: "telegram.png",
+                    url: "https://github.com/jarvis2f/telegram-files",
+                    description: "一个支持 Docker 自托管的 TG 文件下载工具"
+                }
+            ]
         },
         {
-          id: "material",
-          name: "资源",
-          icon: "icon-material",
-          children: [
-            {
-                id: "icon",
-                name: "图标",
-                items: [
-                    {
-                        name: "Iconfont",
-                        icon: "iconfont.png",
-                        url: "https://www.iconfont.cn",
-                        description: "阿里巴巴旗下的图标库"
-                    },
-                    {
-                        name: 'IconPark',
-                        icon: 'iconpark.png',
-                        url: 'https://iconpark.oceanengine.com/',
-                        description: '字节跳动旗下的图标库'
-                    },
-                    {
-                        name: 'Iconfinder',
-                        icon: 'iconfinder.png',
-                        url: 'https://www.iconfinder.com/',
-                        description: '全球最大的图标库'
-                    },
-                    {
-                        name: 'Flaticon',
-                        icon: 'flaticon.png',
-                        url: 'https://www.flaticon.com/',
-                        description: '扁平化图标首选，种类丰富'
-                    },
-                    {
-                        name: 'Material Icons',
-                        icon: 'material.png',
-                        url: 'https://fonts.google.com/icons?hl=zh-cn',
-                        description: 'Google 官方图标库'
-                    },
-                    {
-                        name: 'Icons8',
-                        icon: 'icons8.png',
-                        url: 'https://icons8.com/',
-                        description: '各种风格的图标（扁平化、线框、3D）'
-                    },
-                    {
-                        name: 'The SVG Gallery',
-                        icon: 'svgrepo.png',
-                        url: 'https://www.svgrepo.com/',
-                        description: '专注于 SVG 格式的图标'
-                    }
-                ]
-            },
-            {
-                id: 'font',
-                name: '字体',
-                items: [
-                    {
-                        name: '360字体',
-                        icon: 'font360.png',
-                        url: 'https://fonts.safe.360.cn',
-                        description: '360旗下的字体库'
-                    },
-                    {
-                        name: '猫啃网',
-                        icon: 'maokenwang.png',
-                        url: 'https://www.maoken.com/',
-                        description: '免费商用字体库'
-                    },
-                    {
-                        name: 'Google Fonts',
-                        icon: 'material.png',
-                        url: 'https://fonts.google.com/',
-                        description: 'Google 官方字体库'
-                    },
-                    {
-                        name: '方正字库',
-                        icon: 'foundertype.png',
-                        url: 'https://www.foundertype.com/',
-                        description: '专业级字体，广泛应用于印刷和出版行业'
-                    },
-                    {
-                        name: '100font',
-                        icon: '100font.png',
-                        url: 'https://www.100font.com/',
-                        description: '免费商用字体库'
-                    },
-                    {
-                        name: '喵闪字库',
-                        icon: 'miao3.png',
-                        url: 'https://www.miao3.cn/',
-                        description: '提供字体的在线预览和下载'
-                    },
-                    {
-                        name: '字体搬运工',
-                        icon: 'sucai999.png',
-                        url: 'https://www.sucai999.com/font/',
-                        description: '提供大量免费商用字体下载'
-                    },
-                    {
-                        name: 'DaFont',
-                        icon: 'dafont.png',
-                        url: 'https://www.dafont.com/',
-                        description: '老牌的字体网站，字体种类繁多'
-                    },
-                    {
-                        name: 'Font Squirrel',
-                        icon: 'fontsquirrel.png',
-                        url: 'https://www.fontsquirrel.com/',
-                        description: '提供高品质的免费字体'
-                    },
-                    {
-                        name: 'Abstract Fonts',
-                        icon: 'abstract.png',
-                        url: 'https://www.abstractfonts.com/',
-                        description: '提供十三万种免费字体下载'
-                    }
-                ]
-            },
-            {
-                id: 'pan',
-                name: '网盘',
-                items: [
-                    {
-                        name: '百度网盘',
-                        icon: 'baidupan.png',
-                        url: 'https://pan.baidu.com/',
-                        description: '国内最大的网盘之一'
-                    },
-                    {
-                        name: '夸克网盘',
-                        icon: 'quark.png',
-                        url: 'https://pan.quark.cn/',
-                        description: '夸克网盘，主打极速'
-                    },
-                    {
-                        name: '阿里网盘',
-                        icon: 'aliyundrive.png',
-                        url: 'https://www.aliyundrive.com/',
-                        description: '阿里旗下的网盘'
-                    },
-                    {
-                        name: '迅雷云盘',
-                        icon: 'xunlei.png',
-                        url: 'https://pan.xunlei.com',
-                        description: '迅雷旗下的网盘'
-                    },
-                    {
-                        name: '天翼云盘',
-                        icon: 'tianyipan.png',
-                        url: 'https://cloud.189.cn/',
-                        description: '天翼云盘，主打极速'
-                    },
-                    {
-                        name: '115网盘',
-                        icon: '115.png',
-                        url: 'https://www.115.com/',
-                        description: '主打极速'
-                    },
-                    {
-                        name: '坚果云',
-                        icon: 'jianguoyun.png',
-                        url: 'https://www.jianguoyun.com/',
-                        description: '主打同步，同步网盘'
-                    },
-                    {
-                        name: '中国移动云盘',
-                        icon: 'cmcc.png',
-                        url: 'https://cloud.10086.cn/',
-                        description: '中国移动旗下的网盘'
-                    },
-                    {
-                        name: '华为云盘',
-                        icon: 'huawei.png',
-                        url: 'https://cloud.huawei.com/',
-                        description: '华为旗下的网盘'
-                    },
-                    {
-                        name: '学霸盘',
-                        icon: 'xuebapan.jpg',
-                        url: 'https://www.xuebapan.com/',
-                        description: '百度网盘资源搜索引擎'
-                    },
-                    {
-                        name: 'Google Drive',
-                        icon: 'google_driver.png',
-                        url: 'https://drive.google.com/',
-                        description: "Google 官方网盘"
-                    },
-                    {
-                        name: 'OneDrive',
-                        icon: "onedrive.png",
-                        url: "https://www.microsoft.com/zh-cn/microsoft-365/onedrive/online-cloud-storage",
-                        description: "Microsoft 官方网盘"
-                    },
-                    {
-                        name: 'Dropbox',
-                        icon: 'dropbox.png',
-                        url: "https://www.dropbox.com/",
-                        description: "主打团队协作"
-                    }
-                ]
-            },
-            {
-                id: 'sucai',
-                name: '素材',
-                items: [
-                    {
-                        name: '千图网',
-                        icon: '58pic.png',
-                        url: 'https://www.58pic.com/',
-                        description: "国内最大的素材网站之一"
-                    },
-                    {
-                        name: '花瓣网',
-                        icon: 'huaban.png',
-                        url: 'https://huaban.com/',
-                        description: "设计师寻找灵感的天堂"
-                    },
-                    {
-                        name: '摄图网',
-                        icon: '699pic.png',
-                        url: 'https://www.699pic.com/',
-                        description: "主打摄影素材"
-                    },
-                    {
-                        name: '千库网',
-                        icon: '588ku.png',
-                        url: 'https://588ku.com/',
-                        description: "免费png素材下载，做设计不抠图"
-                    },
-                    {
-                        name: 'PNGDirs',
-                        icon: 'pngdirs.png',
-                        url: 'https://www.pngdirs.com/',
-                        description: "10万+PNG图片素材免费下载"
-                    },
-                    {
-                        name: '站酷',
-                        icon: 'zcool.png',
-                        url: 'https://www.zcool.com.cn/',
-                        description: "主打设计素材"
-                    },
-                    {
-                        name: '视觉中国',
-                        icon: 'vcg.png',
-                        url: 'https://www.vcg.com/',
-                        description: "主打图片素材"
-                    },
-                    {
-                        name: 'Unsplash',
-                        icon: 'unsplash.png',
-                        url: 'https://unsplash.com/',
-                        description: '提供高品质的免费图片，可用于个人和商业用途'
-                    },
-                    {
-                        name: 'Pexels',
-                        icon: 'pexels.png',
-                        url: 'https://www.pexels.com/',
-                        description: "互联网上最大的免费视觉内容库之一"
-                    },
-                    {
-                        name: 'Pixabay',
-                        icon: 'pixabay.png',
-                        url: 'https://pixabay.com/',
-                        description: '海量免费图片、矢量图、视频等，可商用'
-                    },
-                    {
-                        name: 'Behance',
-                        icon: 'Behance.png',
-                        url: 'https://www.behance.net/',
-                        description: "Adobe旗下的创意作品展示平台"
-                    }
-                ]
-            }
-          ],
-          items: [
-              {
-                  name: "Figma",
-                  icon: "figma.png",
-                  url: "https://www.figma.com",
-                  description: "在线设计工具"
-              }
-          ]
+            id: "material",
+            name: "资源",
+            icon: "icon-material",
+            children: [
+                {
+                    id: "icon",
+                    name: "图标",
+                    items: [
+                        {
+                            name: "Iconfont",
+                            icon: "iconfont.png",
+                            url: "https://www.iconfont.cn",
+                            description: "阿里巴巴旗下的图标库"
+                        },
+                        {
+                            name: 'IconPark',
+                            icon: 'iconpark.png',
+                            url: 'https://iconpark.oceanengine.com/',
+                            description: '字节跳动旗下的图标库'
+                        },
+                        {
+                            name: 'Iconfinder',
+                            icon: 'iconfinder.png',
+                            url: 'https://www.iconfinder.com/',
+                            description: '全球最大的图标库'
+                        },
+                        {
+                            name: 'Flaticon',
+                            icon: 'flaticon.png',
+                            url: 'https://www.flaticon.com/',
+                            description: '扁平化图标首选，种类丰富'
+                        },
+                        {
+                            name: 'Material Icons',
+                            icon: 'material.png',
+                            url: 'https://fonts.google.com/icons?hl=zh-cn',
+                            description: 'Google 官方图标库'
+                        },
+                        {
+                            name: 'Icons8',
+                            icon: 'icons8.png',
+                            url: 'https://icons8.com/',
+                            description: '各种风格的图标（扁平化、线框、3D）'
+                        },
+                        {
+                            name: 'The SVG Gallery',
+                            icon: 'svgrepo.png',
+                            url: 'https://www.svgrepo.com/',
+                            description: '专注于 SVG 格式的图标'
+                        }
+                    ]
+                },
+                {
+                    id: 'font',
+                    name: '字体',
+                    items: [
+                        {
+                            name: '360字体',
+                            icon: 'font360.png',
+                            url: 'https://fonts.safe.360.cn',
+                            description: '360旗下的字体库'
+                        },
+                        {
+                            name: '猫啃网',
+                            icon: 'maokenwang.png',
+                            url: 'https://www.maoken.com/',
+                            description: '免费商用字体库'
+                        },
+                        {
+                            name: 'Google Fonts',
+                            icon: 'material.png',
+                            url: 'https://fonts.google.com/',
+                            description: 'Google 官方字体库'
+                        },
+                        {
+                            name: '方正字库',
+                            icon: 'foundertype.png',
+                            url: 'https://www.foundertype.com/',
+                            description: '专业级字体，广泛应用于印刷和出版行业'
+                        },
+                        {
+                            name: '100font',
+                            icon: '100font.png',
+                            url: 'https://www.100font.com/',
+                            description: '免费商用字体库'
+                        },
+                        {
+                            name: '喵闪字库',
+                            icon: 'miao3.png',
+                            url: 'https://www.miao3.cn/',
+                            description: '提供字体的在线预览和下载'
+                        },
+                        {
+                            name: '字体搬运工',
+                            icon: 'sucai999.png',
+                            url: 'https://www.sucai999.com/font/',
+                            description: '提供大量免费商用字体下载'
+                        },
+                        {
+                            name: 'DaFont',
+                            icon: 'dafont.png',
+                            url: 'https://www.dafont.com/',
+                            description: '老牌的字体网站，字体种类繁多'
+                        },
+                        {
+                            name: 'Font Squirrel',
+                            icon: 'fontsquirrel.png',
+                            url: 'https://www.fontsquirrel.com/',
+                            description: '提供高品质的免费字体'
+                        },
+                        {
+                            name: 'Abstract Fonts',
+                            icon: 'abstract.png',
+                            url: 'https://www.abstractfonts.com/',
+                            description: '提供十三万种免费字体下载'
+                        }
+                    ]
+                },
+                {
+                    id: 'pan',
+                    name: '网盘',
+                    items: [
+                        {
+                            name: '百度网盘',
+                            icon: 'baidupan.png',
+                            url: 'https://pan.baidu.com/',
+                            description: '国内最大的网盘之一'
+                        },
+                        {
+                            name: '夸克网盘',
+                            icon: 'quark.png',
+                            url: 'https://pan.quark.cn/',
+                            description: '夸克网盘，主打极速'
+                        },
+                        {
+                            name: '阿里网盘',
+                            icon: 'aliyundrive.png',
+                            url: 'https://www.aliyundrive.com/',
+                            description: '阿里旗下的网盘'
+                        },
+                        {
+                            name: '迅雷云盘',
+                            icon: 'xunlei.png',
+                            url: 'https://pan.xunlei.com',
+                            description: '迅雷旗下的网盘'
+                        },
+                        {
+                            name: '天翼云盘',
+                            icon: 'tianyipan.png',
+                            url: 'https://cloud.189.cn/',
+                            description: '天翼云盘，主打极速'
+                        },
+                        {
+                            name: '115网盘',
+                            icon: '115.png',
+                            url: 'https://www.115.com/',
+                            description: '主打极速'
+                        },
+                        {
+                            name: '坚果云',
+                            icon: 'jianguoyun.png',
+                            url: 'https://www.jianguoyun.com/',
+                            description: '主打同步，同步网盘'
+                        },
+                        {
+                            name: '中国移动云盘',
+                            icon: 'cmcc.png',
+                            url: 'https://cloud.10086.cn/',
+                            description: '中国移动旗下的网盘'
+                        },
+                        {
+                            name: '华为云盘',
+                            icon: 'huawei.png',
+                            url: 'https://cloud.huawei.com/',
+                            description: '华为旗下的网盘'
+                        },
+                        {
+                            name: '学霸盘',
+                            icon: 'xuebapan.jpg',
+                            url: 'https://www.xuebapan.com/',
+                            description: '百度网盘资源搜索引擎'
+                        },
+                        {
+                            name: 'Google Drive',
+                            icon: 'google_driver.png',
+                            url: 'https://drive.google.com/',
+                            description: "Google 官方网盘"
+                        },
+                        {
+                            name: 'OneDrive',
+                            icon: "onedrive.png",
+                            url: "https://www.microsoft.com/zh-cn/microsoft-365/onedrive/online-cloud-storage",
+                            description: "Microsoft 官方网盘"
+                        },
+                        {
+                            name: 'Dropbox',
+                            icon: 'dropbox.png',
+                            url: "https://www.dropbox.com/",
+                            description: "主打团队协作"
+                        }
+                    ]
+                },
+                {
+                    id: 'sucai',
+                    name: '素材',
+                    items: [
+                        {
+                            name: '千图网',
+                            icon: '58pic.png',
+                            url: 'https://www.58pic.com/',
+                            description: "国内最大的素材网站之一"
+                        },
+                        {
+                            name: '花瓣网',
+                            icon: 'huaban.png',
+                            url: 'https://huaban.com/',
+                            description: "设计师寻找灵感的天堂"
+                        },
+                        {
+                            name: '摄图网',
+                            icon: '699pic.png',
+                            url: 'https://www.699pic.com/',
+                            description: "主打摄影素材"
+                        },
+                        {
+                            name: '千库网',
+                            icon: '588ku.png',
+                            url: 'https://588ku.com/',
+                            description: "免费png素材下载，做设计不抠图"
+                        },
+                        {
+                            name: 'PNGDirs',
+                            icon: 'pngdirs.png',
+                            url: 'https://www.pngdirs.com/',
+                            description: "10万+PNG图片素材免费下载"
+                        },
+                        {
+                            name: '站酷',
+                            icon: 'zcool.png',
+                            url: 'https://www.zcool.com.cn/',
+                            description: "主打设计素材"
+                        },
+                        {
+                            name: '视觉中国',
+                            icon: 'vcg.png',
+                            url: 'https://www.vcg.com/',
+                            description: "主打图片素材"
+                        },
+                        {
+                            name: 'Unsplash',
+                            icon: 'unsplash.png',
+                            url: 'https://unsplash.com/',
+                            description: '提供高品质的免费图片，可用于个人和商业用途'
+                        },
+                        {
+                            name: 'Pexels',
+                            icon: 'pexels.png',
+                            url: 'https://www.pexels.com/',
+                            description: "互联网上最大的免费视觉内容库之一"
+                        },
+                        {
+                            name: 'Pixabay',
+                            icon: 'pixabay.png',
+                            url: 'https://pixabay.com/',
+                            description: '海量免费图片、矢量图、视频等，可商用'
+                        },
+                        {
+                            name: 'Behance',
+                            icon: 'Behance.png',
+                            url: 'https://www.behance.net/',
+                            description: "Adobe旗下的创意作品展示平台"
+                        }
+                    ]
+                }
+            ],
+            items: [
+                {
+                    name: "Figma",
+                    icon: "figma.png",
+                    url: "https://www.figma.com",
+                    description: "在线设计工具"
+                }
+            ]
         }
     ]
 }; 
