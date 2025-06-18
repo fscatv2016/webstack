@@ -245,6 +245,12 @@ const navData = {
                     icon: 'openai-sora.png',
                     url: 'https://sora.com/',
                     description: 'OpenAI发布的人工智能文生视频大模型'
+                },
+                {
+                    name: '腾讯元宝',
+                    icon: 'yuanbao.png',
+                    url: 'https://yuanbao.tencent.com/',
+                    description: '混元 + Deepseek 双模型加持的AI助手'
                 }
             ]
         },
@@ -262,6 +268,36 @@ const navData = {
                             icon: "photopea.png",
                             url: "https://www.photopea.com/",
                             description: "在线版Photoshop"
+                        },
+                        {
+                            name: 'Squoosh',
+                            icon: 'squoosh.png',
+                            url: 'https://squoosh.app/',
+                            description: '谷歌开源在线图片压缩工具'
+                        },
+                        {
+                            name: 'TwitterXZ',
+                            icon: 'twitterxz.png',
+                            url: 'https://twitterxz.com/',
+                            description: 'Twitter 视频下载工具'
+                        },
+                        {
+                            name: 'Cobalt',
+                            icon: 'cobalt.png',
+                            url: 'https://cobalt.tools/',
+                            description: '在线下载视频、图片神器'
+                        },
+                        {
+                            name: 'Temp Mail',
+                            icon: 'temp-mail.png',
+                            url: 'https://temp-mail.org/zh/',
+                            description: 'Temp Mail - 临时性 - 匿名电子邮件'
+                        },
+                        {
+                            name: 'News Now',
+                            icon: 'newsnow.png',
+                            url: 'https://newsnow.busiyi.world/c/hottest',
+                            description: '实时与热门新闻聚合平台'
                         }
                     ]
                 },
@@ -344,6 +380,36 @@ const navData = {
             name: "软件",
             icon: "icon-Software",
             children: [
+                {
+                    id: '',
+                    name: '必备软件',
+                    items: [
+                        {
+                            name: "Everything",
+                            icon: "everything.png",
+                            url: "https://www.voidtools.com/zh-cn/",
+                            description: "一款强大的文件搜索工具"
+                        },
+                        {
+                            name: 'HiBit Uninstaller',
+                            icon: 'hiBit_uninstaller.png',
+                            url: 'https://www.hibitsoft.ir/',
+                            description: '一款强大的卸载软件工具'
+                        },
+                        {
+                            name: 'PotPlayer',
+                            icon: 'potplayer.png',
+                            url: 'https://potplayer.daum.net/',
+                            description: '一款免费的多媒体播放器'
+                        },
+                        {
+                            name: '图吧工具箱',
+                            icon: 'tuba.png',
+                            url: 'https://www.tbtool.cn/',
+                            description: '开源、免费、绿色、纯净的硬件检测工具合集'
+                        }
+                    ]
+                },
                 {
                     id: 'develop',
                     name: '编程软件',
